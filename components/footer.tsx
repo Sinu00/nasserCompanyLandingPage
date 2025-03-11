@@ -128,7 +128,7 @@ export default function Footer() {
               <li className="flex group">
                 <MapPin className="h-5 w-5 mr-3 text-orange-500 flex-shrink-0 group-hover:text-orange-400 transition-colors" />
                 <span className="group-hover:text-orange-100 transition-colors">
-                  123 Business Avenue, Industrial District, City, Country
+                  Nasser AlOtaibi Contracting, AlJubail, KSA
                 </span>
               </li>
               <li className="flex group">
