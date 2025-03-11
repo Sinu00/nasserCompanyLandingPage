@@ -11,7 +11,7 @@ export default function ServicesPage() {
       <section className="relative h-[50vh] w-full">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/nasserimage3.png"
             alt="Construction site"
             fill
             className="object-cover brightness-[0.4]"

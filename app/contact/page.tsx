@@ -81,7 +81,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Our Location</h3>
-                    <p className="text-gray-600">123 Business Avenue, Industrial District, City, Country</p>
+                    <p className="text-gray-600">Nasser Alotaibi Contracting, Jubail, KSA</p>
                   </div>
                 </div>
 
@@ -113,8 +113,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Working Hours</h3>
-                    <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                    <p className="text-gray-600">Saturday: 9:00 AM - 1:00 PM</p>
+                    <p className="text-gray-600">Monday - Friday: 8:00 AM - 12:00 PM</p>
+                    <p className="text-gray-600">Saturday: 9:00 AM - 6:00 PM</p>
                     <p className="text-gray-600">Sunday: Closed</p>
                   </div>
                 </div>
@@ -238,8 +238,15 @@ export default function ContactPage() {
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="bg-gray-300 h-[400px] rounded-lg w-full flex items-center justify-center overflow-hidden shadow-lg transform transition-transform hover:shadow-xl duration-300">
-            <p className="text-gray-600">Map would be embedded here</p>
-            {/* In a real implementation, you would embed a Google Map or other map service here */}
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28437.955381444248!2d49.653272449999996!3d27.006633400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e35a05e4e3e9251%3A0x37d923d58849172!2sAl%20Jubail%2035514!5e0!3m2!1sen!2ssa!4v1741712517748!5m2!1sen!2ssa"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </section>
